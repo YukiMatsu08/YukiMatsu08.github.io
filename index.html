@@ -2,10 +2,144 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuki Matsumoto - Portfolio</title>
+    <style>
+        /* 全体のデザイン調整 */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #ddd;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        h1 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 2.5rem;
+        }
+        .container {
+            margin-top: 40px;
+        }
+        h2 {
+            color: #34495e;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+        /* 作品カードのデザイン */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-3px);
+        }
+        .project-title {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 1.3rem;
+        }
+        .project-desc {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        /* ボタンのデザイン */
+        .btn-links {
+            display: flex;
+            gap: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-align: center;
+            flex: 1;
+        }
+        .btn-primary {
+            background-color: #3498db;
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background-color: #2980b9;
+        }
+        .btn-secondary {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+        .btn-secondary:hover {
+            background-color: #1a252f;
+        }
+    </style>
 </head>
 <body>
-    <h1>ポートフォリオサイトへようこそ！</h1>
-    <p>ここにこれまで作ったアプリ（クイズアプリなど）を掲載していきます。</p>
+
+    <header>
+        <h1>Yuki Matsumoto</h1>
+        <p>Webアプリケーション・制作実績ポートフォリオ</p>
+    </header>
+
+    <div class="container">
+        <h2>📦 制作実績 (Projects)</h2>
+        
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <h3 class="project-title">ここどこさ (Kokodokosa)</h3>
+                <p class="project-desc">位置情報を活用した、地図あてクイズアプリケーションです。道の形や周囲の風景から場所を推測する楽しさがあります。</p>
+                <div class="btn-links">
+                    <a href="https://yukimatsu08.github.io/kokodokosa/" target="_blank" class="btn btn-primary">アプリを見る</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Debug Reality Game</h3>
+                <p class="project-desc">ブラウザ上で動作する、謎解き・クイズ要素を取り入れたインタラクティブなゲームアプリケーションです。</p>
+                <div class="btn-links">
+                    <a href="https://yukimatsu08.github.io/debug-reality-game/" target="_blank" class="btn btn-primary">アプリを見る</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">りんご品種識別ツール</h3>
+                <p class="project-desc">様々な種類のりんごを識別・学習するための、JavaScriptベースのクイズ形式アプリケーションです。</p>
+                <div class="btn-links">
+                    <a href="https://yukimatsu08.github.io/apple-identification-tool/" target="_blank" class="btn btn-primary">アプリを見る</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">bug-watch</h3>
+                <p class="project-desc">開発中のプログラムやシステムのバグ・挙動を監視・管理するためのプロジェクトです（ソースコードを公開中）。</p>
+                <div class="btn-links">
+                    <a href="https://github.com/YukiMatsu08/bug-watch" target="_blank" class="btn btn-secondary">GitHubでコードを見る</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 </html>
