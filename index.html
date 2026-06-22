@@ -8,82 +8,247 @@
 </head>
 <body>
 
-    <header>
+    <header class="portfolio-header">
         <h1>Yuki Matsumoto</h1>
-        <p>Webアプリケーション・制作実績ポートフォリオ</p>
+        <p class="subtitle">Web Applications & Tools Portfolio</p>
     </header>
 
-    <div class="container">
-        <h2>📦 制作実績 (Projects)</h2>
+    <main class="container">
         
-        <div class="project-grid">
-            
-            <div class="project-card">
-                <h3 class="project-title">ココドコサー</h3>
-                <p class="project-desc">位置情報を活用した、地図あてクイズアプリケーションです。道の形や周囲の風景から場所を推測する楽しさがあります。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/kokodokosa/" target="_blank" class="btn btn-primary">アプリを見る</a>
+        <section class="category-section">
+            <h2 class="category-title">🎮 ゲーム作品 <span class="en-title">Games</span></h2>
+            <div class="project-list">
+                
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3 class="project-name">ココドコサ</h3>
+                        <p class="project-summary">位置情報を活用した地理・地図当てクイズゲーム。道の形状や風景から場所を推測する楽しさを追求しています。</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yukimatsu08.github.io/kokodokosa/" target="_blank" class="link-btn btn-live">アプリ</a>
+                        <a href="https://github.com/YukiMatsu08/kokodokosa" target="_blank" class="link-btn btn-repo">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3 class="project-name">bug-watch</h3>
+                        <p class="project-summary">開発中のプログラムやシステムの挙動・バグ探しをテーマにした、インシデント風ゲームアプリケーション。</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yukimatsu08.github.io/bug-watch/" target="_blank" class="link-btn btn-live">アプリ</a>
+                        <a href="https://github.com/YukiMatsu08/bug-watch" target="_blank" class="link-btn btn-repo">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3 class="project-name">Vending Error シミュレーター</h3>
+                        <p class="project-summary">自動販売機に発生する特殊なエラーコードや対応フローを、擬似的に学習・体験できるシミュレーションゲーム。</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yukimatsu08.github.io/Vending-Error/" target="_blank" class="link-btn btn-live">アプリ</a>
+                        <a href="https://github.com/YukiMatsu08/Vending-Error" target="_blank" class="link-btn btn-repo">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3 class="project-name">Debug Reality Game</h3>
+                        <p class="project-summary">ブラウザ上で動作する、謎解き・クイズ要素を取り入れたインタラクティブなゲーム型アプリケーション。</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yukimatsu08.github.io/debug-reality-game/" target="_blank" class="link-btn btn-live">アプリ</a>
+                        <a href="https://github.com/YukiMatsu08/debug-reality-game" target="_blank" class="link-btn btn-repo">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="category-section">
+            <h2 class="category-title">🛠️ アプリケーション & ツール <span class="en-title">Applications & Tools</span></h2>
+            <p class="section-lead">共通システムをベースに、各用途・データセットへ最適化して横展開（パッケージ化）したプロダクト群です。</p>
+
+            <div class="series-container">
+
+                <div class="series-block">
+                    <h3 class="series-heading">💻 インタラクティブ・トラブルシューティング</h3>
+                    <p class="series-lead-text">ユーザーの選択に応じてPCトラブルを疑似解決へ導くサポートツール</p>
+                    <div class="series-list">
+                        <div class="series-sub-item">
+                            <span class="sub-name">画面がつかない問題 解決シミュレーター</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Interactive-solution-poweroff/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Interactive-solution-poweroff" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">PCが重い問題 解決シミュレーター</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Interactive-solution-slowpc/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Interactive-solution-slowpc" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">音が聞こえない問題 解決シミュレーター</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Interactive-solution-earphone/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Interactive-solution-earphone" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="series-block">
+                    <h3 class="series-heading">🛡️ ITセキュリティ・トレーニング</h3>
+                    <p class="series-lead-text">組織内のセキュリティ意識向上・リテラシー強化を目的とした訓練ツール</p>
+                    <div class="series-list">
+                        <div class="series-sub-item">
+                            <span class="sub-name">セキュリティ訓練 - パスワード管理編</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/security-training-password/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/security-training-password" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">セキュリティ訓練 - 不審メール・詐欺編</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/security-training-scam/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/security-training-scam" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">セキュリティ訓練 - AI利用ガイドライン編</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/security-training-AI/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/security-training-AI" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="series-block">
+                    <h3 class="series-heading">📋 業務フロー・セットアップ確認</h3>
+                    <p class="series-lead-text">複雑な手順やチェックリストを視覚化し、手順漏れを防ぐステップナビゲーター</p>
+                    <div class="series-list">
+                        <div class="series-sub-item">
+                            <span class="sub-name">PCセットアップ手順確認ツール</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/flow-check-PCsetup/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/flow-check-PCsetup" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">データバックアップ確認ツール</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/flow-check-databackup/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/flow-check-databackup" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">モバイル端末破損時の対応フロー確認</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/flow-check-mobile-damage/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/flow-check-mobile-damage" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="series-block">
+                    <h3 class="series-heading">🐻 2択シミュレーション・クイズ</h3>
+                    <p class="series-lead-text">緊急時や現場での判断力を直感的な2択形式で試すクイックシミュレーター</p>
+                    <div class="series-list">
+                        <div class="series-sub-item">
+                            <span class="sub-name">クマ遭遇時 対策クイズ</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Two-choice-bear/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Two-choice-bear" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">熱中症 予防・対策クイズ</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Two-choice-heat/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Two-choice-heat" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">害虫・不快害虫 対策クイズ</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Two-choice-pest/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Two-choice-pest" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="series-block">
+                    <h3 class="series-heading">📊 調査・アンケートフォーム</h3>
+                    <p class="series-lead-text">回答しやすさを重視した、JavaScript制御によるインタラクティブな各種調査用フォーム</p>
+                    <div class="series-list">
+                        <div class="series-sub-item">
+                            <span class="sub-name">リモートツール導入に関するアンケート</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Survey-Remote-Tool-Introduction/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Survey-Remote-Tool-Introduction" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">セキュリティと利便性（Usability）に関するアンケート</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Survey-Security-Usability/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Survey-Security-Usability" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="series-sub-item">
+                            <span class="sub-name">社内AI導入・活用に関するアンケート</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/Survey-AI-Introduction/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/Survey-AI-Introduction" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="series-block">
+                    <h3 class="series-heading">⚙️ その他ツール</h3>
+                    <div class="series-list">
+                        <div class="series-sub-item">
+                            <span class="sub-name">IT機器管理ツール (It-device-manager)</span>
+                            <div class="project-links">
+                                <a href="https://yukimatsu08.github.io/It-device-manager/" target="_blank" class="link-btn btn-live">アプリ</a>
+                                <a href="https://github.com/YukiMatsu08/It-device-manager" target="_blank" class="link-btn btn-repo">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="category-section wip-section">
+            <h2 class="category-title-wip">🧪 開発中・実験用のプロジェクト</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h3 class="project-name">りんご品種識別ツール</h3>
+                        <p class="project-summary">様々な種類のりんごを学習するためのJavaScriptベース of クイズアプリ。現在、UI改善や機能追加を適用中のプロトタイプです。</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yukimatsu08.github.io/apple-identification-tool/" target="_blank" class="link-btn btn-live">アプリ</a>
+                        <a href="https://github.com/YukiMatsu08/apple-identification-tool" target="_blank" class="link-btn btn-repo">GitHub</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="project-card">
-                <h3 class="project-title">Debug Reality Game</h3>
-                <p class="project-desc">ブラウザ上で動作する、謎解き・クイズ要素を取り入れたインタラクティブなゲームアプリケーションです。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/debug-reality-game/" target="_blank" class="btn btn-primary">アプリを見る</a>
-                </div>
-            </div>
+    </main>
 
-            <div class="project-card">
-                <h3 class="project-title">りんご品種識別ツール</h3>
-                <p class="project-desc">様々な種類のりんごを識別・学習するための、JavaScriptベースのクイズ形式アプリケーションです。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/apple-identification-tool/" target="_blank" class="btn btn-primary">アプリを見る</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3 class="project-title">Vending Error</h3>
-                <p class="project-desc">自動販売機のエラー対応やトラブルシューティングを疑似体験・シミュレーションできるWebアプリケーションです。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/Vending-Error/" target="_blank" class="btn btn-primary">アプリを見る</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3 class="project-title">Interactive Solution Poweroff</h3>
-                <p class="project-desc">システムの強制終了や電源オフ時のプロセス、適切な解決手順をインタラクティブに学べるシミュレーターです。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/Interactive-solution-poweroff/" target="_blank" class="btn btn-primary">アプリを見る</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3 class="project-title">Security Training - Scam</h3>
-                <p class="project-desc">不審なメールやWebサイトによる詐欺手法（フィッシング等）を学び、識別能力を養うためのセキュリティ訓練ツールです。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/security-training-scam/" target="_blank" class="btn btn-primary">アプリを見る</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3 class="project-title">Security Training - Password</h3>
-                <p class="project-desc">安全なパスワードの作成基準や、認証セキュリティの重要性についてクイズ形式等で学べる訓練アプリケーションです。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/security-training-password/" target="_blank" class="btn btn-primary">アプリを見る</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3 class="project-title">bug-watch</h3>
-                <p class="project-desc">開発中のプログラムやシステムのバグ・挙動を監視・管理するためのプロジェクトです。</p>
-                <div class="btn-links">
-                    <a href="https://yukimatsu08.github.io/bug-watch/" target="_blank" class="btn btn-primary">アプリを見る</a>
-                </div>
-            </div>
-
-        </div>
-    </div>
+    <footer class="portfolio-footer-bottom">
+        <p>&copy; 2026 Yuki Matsumoto. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
